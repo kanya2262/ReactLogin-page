@@ -1,0 +1,99 @@
+header{
+  height: 100%;
+  width:100%;
+}
+.form{
+  box-shadow: 1px  1px 10px lightgray;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 100px auto;
+  gap: 10px;
+  background-color:77588;
+  
+
+}
+
+
+.formcontrol{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-bottom: 3px;
+  color:white;
+}
+
+.in{
+  outline: none;
+}
+
+.formcontrol input{
+  outline: none;
+  width: 350px;
+  height: 40px;
+padding: 0px 6px;
+
+}
+.formcontrol input::placeholder{
+  text-transform: capitalize;
+}
+
+.login-page{
+  background-size: cover;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+
+.centered-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:red;
+  font-size: 20px;
+
+}
+
+  .btn{
+    padding: 10px;
+font-size: 20px;
+background-color: brown;
+  
+}
+
+
+.centered-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-decoration-color: white; */
+}
+.btn{
+  padding: 10px;
+  font-size: 20px;
+  background-color:brown;
+color: white;
+text-transform: capitalize;
+
+}
+
+
+
+.file{
+  background-color: red;
+}

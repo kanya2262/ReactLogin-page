@@ -1,0 +1,45 @@
+body {
+  margin: 0 ;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+
+  /* background-image: url('./image/Rectangle\ 48.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size:  cover; */
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header{
+  height: fit-content;
+  width: fit-content;
+  /* background-color:; */
+}
+
+img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+.mainbody{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vh;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
